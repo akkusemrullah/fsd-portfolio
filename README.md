@@ -21,4 +21,4 @@ Bu proje, HTML ve CSS kullanılarak geliştirilmiş basit ve şık bir kişisel 
 
 ## 🔗 Demo
 
-[Canlı Demo Linki](https://proje-linki.vercel.app)
+[Canlı Demo Linki](https:www.emrullahakkus.com.tr)
