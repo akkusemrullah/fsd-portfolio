@@ -17,7 +17,7 @@ Bu proje, HTML ve CSS kullanılarak geliştirilmiş basit ve şık bir kişisel 
 
 ## 📷 Ekran Görüntüsü
 
-![Ekran Görüntüsü](screenshots/demo.png)
+![Ekran Görüntüsü](screenshots/proje.png)
 
 ## 🔗 Demo
 
