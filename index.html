@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="tr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Emrullah Akkuş</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet" />
+
+        <link rel="stylesheet" href="wwwroot/css/style.css" />
+    </head>
+    <body>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#hero">Ana Sayfa</a></li>
+                <li><a href="#information">Hakkımda</a></li>
+                <li><a href="#projects">Projeler</a></li>
+                <li><a href="#contact">İletişim</a></li>
+            </ul>
+        </nav>
+
+        <main id="hero">
+            <header class="header">
+                <div class="avatar"></div>
+                <div class="name">
+                    <h1>Emrullah Akkuş</h1>
+                    <h2>Yazılım Mühendisi</h2>
+                </div>
+            </header>
+
+            <section class="information" id="information">
+                <h1>HAKKIMDA</h1>
+                <div class="flex-container">
+                    <div class="flex-item">
+                        <p>
+                            Merhaba, ben <strong>Emrullah Akkuş</strong>. 25 yaşındayım ve Karadeniz Teknik Üniversitesi Yazılım Mühendisliği bölümünden 2023 yılında mezun oldum. Yazılım geliştirme alanında edindiğim akademik bilgilerimi,
+                            çeşitli sektörlerdeki staj ve iş deneyimlerimle pekiştirdim.
+                        </p>
+                        <p>
+                            Şu anda Ankara'da Zirve Yazılım bünyesinde Yazılım Geliştirme Uzmanı olarak çalışıyorum. Masaüstü muhasebe programları geliştirme üzerine yoğunlaşıyor, ekip çalışması ve proje yönetimi becerilerimi her geçen gün
+                            daha da geliştiriyorum.
+                        </p>
+                    </div>
+
+                    <div class="flex-item">
+                        <img src="wwwroot/Media/profile.jpg" alt="Profil fotoğrafı" />
+                    </div>
+                </div>
+            </section>
+
+            <section class="projects" id="projects">
+                <h1>PROJELERİM</h1>
+
+                <div class="grid-container">
+                    <div class="grid-item">
+                        <h3>AR Museum</h3>
+                        <img src="wwwroot/Media/ar_museum.jpeg" alt="AR Museum proje görseli" />
+                        <p>AR destekli müze deneyimi. TensorFlow ve Android Studio ile geliştirildi.</p>
+                        <a href="ar_museum_project.html">Detaylar</a>
+                    </div>
+
+                    <div class="grid-item">
+                        <h3>Tale AI</h3>
+                        <img src="wwwroot/Media/tale_ai.jpeg" alt="Tale AI proje görseli" />
+                        <p>Tale AI çocuklar için yapay zeka ile masal oluşturan mobil bir uygulamadır.</p>
+                        <a href="#">Detaylar</a>
+                    </div>
+
+                    <div class="grid-item">
+                        <h3>EduAR</h3>
+                        <img src="wwwroot/Media/eduar.jpeg" alt="EduAR proje görseli" />
+                        <p>EduAR, yapay zeka ve artırılmış gerçeklik teknolojilerini birleştirerek öğrencilere etkileşimli öğrenme deneyimi sunan bir mobil uygulamadır.</p>
+                        <a href="#">Detaylar</a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="contact" id="contact">
+                <h1>İLETİŞİM</h1>
+                <div class="flex-container">
+                    <div class="flex-item">
+                        <form action="#">
+                            <label for="name_surname">Ad Soyad</label>
+                            <input type="text" id="name_surname" name="name_surname" required />
+
+                            <label for="mail">E-Posta</label>
+                            <input type="email" name="mail" id="mail" required />
+
+                            <label for="message">Mesaj</label>
+                            <textarea name="message" id="message"></textarea>
+
+                            <button type="submit">Gönder</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+
+            <footer class="footer">
+                <p>© 2025 Emrullah Akkuş. Tüm hakları saklıdır.</p>
+            </footer>
+        </main>
+    </body>
+</html>
